@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link rel="stylesheet" href="./css/login.css">
+  <script src=./JQuery/JQuery.js></script>
+  <title>Login</title>
+</head>
+<body>
+  <div id="bll1" class="ballon position1">
+    <ul>
+      <li id="lg3">Length < 3</li>
+      <li id="wr1">Wrong Username</li>
+      <li id="sym1">Wrong symbol</li>
+    </ul>
+  </div>
+  <div id="bll2" class="ballon position2">
+    <ul>
+      <li id="lg6">Length < 6</li>
+      <li id="wr2">Wrong Password</li>
+      <li id="sym2">Wrong symbol</li>
+    </ul>
+  </div>
+
+  <div class="box_login ">
+    <div class="color">
+      <h1>LOGIN</h1>
+      <form class="" action="home.html" method="get">
+        <div class="box_input">
+          <input type="text" id="InputUsername" placeholder="Username"
+          maxlength="8" required>
+          <br>
+          <input type="password" id="InputPassword" placeholder="Password" required>
+          <br>
+          <input type="checkbox" id="remCheck">
+          remember
+
+          <input class="submit" type="submit" id="btn1" value="Log In">
+          <br>
+          <div class="register">
+            <a id="btn2" href="register.html">Register</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="login.js">
+  </script>
+</body>
+</html>

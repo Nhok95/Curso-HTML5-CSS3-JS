@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/register.css">
+  <script src=./JQuery/JQuery.js></script>
+  <title>Register</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Create New Account</h1>
+    </nav>
+  </header>
+
+  <section class="container">
+    <div class="row">
+      <div id="bll1" class="ballon position1">
+          <p id="lg3">Length < 3</p>
+      </div>
+      <div id="bll2" class="ballon position2">
+          <p id="wem">Invalid e-mail</p>
+      </div>
+      <div id="bll3" class="ballon position3">
+          <p id="lg6">Length < 6</p>
+      </div>
+      <div id="bll4" class="ballon position4">
+          <p id="diffp">Different passwords</p>
+      </div>
+      <div id="bll5" class="ballon position5">
+          <p id="wdni">Invalid DNI</p>
+      </div>
+      <div class="box_register">
+         <form class="" action="success.html" method="get"> 
+           <div class="form-group">
+             <label for="username">Username:*</label>
+             <input type="text" class="form-control" id="usn" placeholder="Username" required>
+           </div>
+           <div class="form-group">
+             <label for="email">Email address:*</label>
+             <input type="email" class="form-control" id="email" placeholder="example@domain.com" required>
+           </div>
+           <div class="form-group">
+             <label for="pwd">Password:*</label>
+             <input type="password" class="form-control" id="pwd" placeholder="Password" required>
+           </div>
+           <div class="form-group">
+             <label for="pwd2">Repeat password*:</label>
+             <input type="password" class="form-control" id="pwd2" placeholder="Password" required>
+           </div>
+           <div class="form-group">
+             <label for="dni">DNI*:</label>
+             <input type="text" class="form-control" id="dni" placeholder="DNI" maxlength="9" required>
+           </div>
+           <input class="submit" type="submit" id="btn1" value="Register">
+           <a class="returnButton" href="./login.html">Return</a>
+
+        </form>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript" src="register.js">
+
+  </script>
+
+</body>
+</html>

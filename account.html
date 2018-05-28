@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
+  <script src=./JQuery/JQuery.js></script>
+  <link rel="stylesheet" href="./css/home.css">
+  <title>Anime news</title>
+
+</head>
+<body>
+  <header class="topnav" id="myTopnav">
+    <ul class="menu">
+      <li><a class="navButton" href="home.html">Home</a></li>
+      <li><a class="navButton" href="anime.html">Anime news</a></li>
+      <li><a class="navButton" href="games.html">Games news</a></li>
+      <li><a class="active navButton" href="account.html">Mi cuenta</a></li>
+      <li><a href="javascript:void(0);" class="icon navButton2" onclick="myFunction()">&#9776;</a><li>
+    </ul>
+  </header>
+  
+  <section class="container">
+    <div class="row">
+      <div class="account_box">
+        <div>
+          <h1 class="Pacifico">Account</h1>
+          <form class=""  method="post">
+            <fieldset>
+              <legend class="white">actualitzar dades</legend>
+              <div class="form-group">
+                <label for="fname">First Name</label></br>
+                <input type="text" class="form-control" id="fname" placeholder="First name">
+              </div>
+              <div class="form-group">
+                <label for="sname">Second Name</label></br>
+                <input type="text" class="form-control" id="sname" placeholder="Second name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email" placeholder="example@domain.com">
+              </div>
+              <div class="form-group">
+                <label class="custom-file" for="foto">
+                  <input type="file" class="custom-file-input" id="foto">
+                  <span class="custom-file-control"></span>
+                </label>      
+              </div>
+              <div class="boton btn1">
+                <button type="button" onclick="getData();" name="button">Actualitza</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        
+      </div>
+      
+      <div class="dades_box" >
+        <div>
+          <h1 class="Pacifico">Dades</h1>
+        </div>
+        <hr>
+        
+        <div class="contenido" id="dad">
+          <figure class="account_css">
+            <img id="im_profile" width="180px" height="auto" src="./Images/Profile/default.jpg" alt="perfil">
+          </figure>
+        </div > 
+        
+        
+      </div>
+    </div>
+  </section>
+  
+  <script type="text/javascript" src="account.js">
+  </script>
+  <script type="text/javascript" src="home.js">
+  </script>
+  
+</body>
+</html>
