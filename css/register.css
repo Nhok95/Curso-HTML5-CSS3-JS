@@ -1,0 +1,148 @@
+body {
+  background-image: url('../Images/Backgrounds/Login_background.jpg');
+  background-size: cover;
+}
+
+header {
+  background-color: #333;
+  margin: 0em;
+  padding: 1em;
+}
+
+h1 {
+  color:white;
+  text-align: center;
+}
+h2 {
+  color:black;
+  text-align: center;
+}
+
+p {
+  margin: 10px 50px;
+  color: black;  
+}
+
+.waiting {
+  cursor: progress;
+}
+
+.ballon {
+  visibility: hidden;
+  width: 240px;
+  height: 40px;
+  background-color: rgb(255,0,0,0.3);
+  border: solid 1px transparent;
+  border-radius: 10px;
+  position:absolute;
+  left:1230px;
+}
+
+.ballon::before{
+  content:"";
+  width: 0;
+  height: 0;
+  position: absolute;
+  margin: 10px 10px 0 -41px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 20px solid rgb(255,0,0,0.3);
+  border-left: 20px solid transparent;
+}
+
+.position1 {
+  top: 215px;
+}
+.position2 {
+  top: 295px;
+}
+.position3 {
+  top: 365px;
+}
+.position4 {
+  top: 445px;
+}
+.position5 {
+  top: 515px;
+}
+
+.box_register {
+  margin-top: 0em;
+  padding: 7em 25em;
+  padding-left: 10em;
+  background-color: rgb(33,33,33,0.7);
+  border-radius: 0px 0px 25px 25px;
+}
+
+.box_register2 {
+  margin-top: 10em;
+  padding: 7em 25em;
+  background-color: rgb(33,33,33,0.7);
+  border-radius: 25px;
+}
+
+form {
+  color:white;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+a.returnButton:link {
+  text-decoration: none;
+  border: none;
+  margin-left: 1em;
+  padding: 15px 25px;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  cursor:pointer;
+  color:white;
+}
+
+a.returnButton:visited {
+   text-decoration: none;
+   color:white;
+}
+
+a.returnButton:hover {
+   background-color: #45a049;
+}
+
+a.returnButton:active {
+   text-decoration: none;
+   color:white;
+}
+
+#lg3 {
+  visibility: hidden;
+}
+
+#lg6 {
+  visibility: hidden;
+}
+
+#wem {
+  visibility: hidden;
+}
+
+#diffp {
+  visibility: hidden;
+}
+
+#wdni {
+  visibility: hidden;
+}
+
+#redirect {
+  cursor: pointer;
+}

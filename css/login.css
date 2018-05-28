@@ -1,0 +1,148 @@
+body {
+  background-image: url('../Images/Backgrounds/Login_background.jpg');
+  background-size: cover;
+}
+
+.box_login {
+  width: 600px;
+  height: 350px;
+  background-color: rgb(10,10,10,0.6);
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.field_set{
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 0px;
+}
+ h1 {
+   font-family: 'Orbitron', sans-serif;
+   text-align: center;
+   padding-top: 1em;
+   margin-bottom: 0.2em;
+ }
+
+ .color {
+   color: #dedede;
+ }
+
+.box_input {
+  width: 350px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.ballon {
+  visibility: hidden;
+  width: 190px;
+  height: 100px;
+  background-color: rgb(255,0,0,0.3);
+  border: solid 1px transparent;
+  border-radius: 10px;
+  position:relative;
+  left:1060px;
+
+}
+
+.position1 {
+  top: 265px;
+}
+
+.position2 {
+  top: 285px;
+}
+
+.position1::before{
+  content:"";
+  width: 0;
+  height: 0;
+  position: absolute;
+  margin: 65px 10px 0 -46px;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 25px solid rgb(255,0,0,0.3);
+  border-left: 20px solid transparent;
+}
+
+.position2::before{
+  content:"";
+  width: 0;
+  height: 0;
+  position: absolute;
+  margin: 15px 0 0 -46px;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 25px solid rgb(255,0,0,0.3);
+  border-left: 20px solid transparent;
+}
+
+.submit {
+  margin-left: 50px;
+}
+
+div.register {
+  background-color: #001133;
+  width: 83px;
+  padding: 14px 87px;
+  margin-left:  0px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px 8px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+ul {
+  font-size: 15px;
+  margin-top: 15px;
+  padding-left: 30px;
+}
+
+#lg3 {
+  visibility: hidden;
+}
+
+#lg6 {
+  visibility: hidden;
+}
+
+#sym1 {
+  visibility: hidden;
+}
+
+#sym2 {
+  visibility: hidden;
+}
+
+#wr1 {
+  visibility: hidden;
+}
+
+#wr2 {
+  visibility: hidden;
+}
